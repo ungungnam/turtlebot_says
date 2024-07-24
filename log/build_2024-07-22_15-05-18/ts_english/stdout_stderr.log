@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/ts_english/ts_english.egg-info/PKG-INFO
+writing dependency_links to ../../build/ts_english/ts_english.egg-info/dependency_links.txt
+writing entry points to ../../build/ts_english/ts_english.egg-info/entry_points.txt
+writing requirements to ../../build/ts_english/ts_english.egg-info/requires.txt
+writing top-level names to ../../build/ts_english/ts_english.egg-info/top_level.txt
+reading manifest file '../../build/ts_english/ts_english.egg-info/SOURCES.txt'
+writing manifest file '../../build/ts_english/ts_english.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages/ts_english-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/ts_english/ts_english.egg-info to /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages/ts_english-0.0.0-py3.8.egg-info
+running install_scripts
+Installing draw_english_client script to /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/ts_english
+Installing draw_english_server script to /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/ts_english
+writing list of installed files to '/home/unghui/turtlebot_says_ros2_ws/build/ts_english/install.log'

@@ -1,0 +1,140 @@
+[0.270s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ts_english']
+[0.270s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f134c9fb4f0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['ts_english'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f134c9fb4f0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f134c90b370>)
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.390s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/unghui/turtlebot_says_ros2_ws'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ros'
+[0.404s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ts_english) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ts_english) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ts_english) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ts_english) by extensions ['colcon_pkg']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ts_english) by extension 'colcon_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ts_english) by extensions ['colcon_meta']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ts_english) by extension 'colcon_meta'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ts_english) by extensions ['ros']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ts_english) by extension 'ros'
+[0.405s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ts_english' with type 'ros.ament_python' and name 'ts_english'
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.419s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'custom_interfaces' in 'src/custom_interfaces'
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.421s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/unghui/turtlebot_says_ros2_ws/install
+[0.422s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 307 installed packages in /opt/ros/foxy
+[0.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'ts_english' build argument 'cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'ts_english' build argument 'cmake_target' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'ts_english' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'ts_english' build argument 'cmake_clean_cache' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'ts_english' build argument 'cmake_clean_first' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'ts_english' build argument 'cmake_force_configure' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'ts_english' build argument 'ament_cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'ts_english' build argument 'catkin_cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'ts_english' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.491s] DEBUG:colcon.colcon_core.verb:Building package 'ts_english' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/unghui/turtlebot_says_ros2_ws/build/ts_english', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/unghui/turtlebot_says_ros2_ws/install/ts_english', 'merge_install': False, 'path': '/home/unghui/turtlebot_says_ros2_ws/src/ts_english', 'symlink_install': False, 'test_result_base': None}
+[0.491s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.492s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.492s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/unghui/turtlebot_says_ros2_ws/src/ts_english' with build type 'ament_python'
+[0.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('ts_english', 'ament_prefix_path')
+[0.495s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unghui/turtlebot_says_ros2_ws/install/ts_english/share/ts_english/hook/ament_prefix_path.ps1'
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unghui/turtlebot_says_ros2_ws/install/ts_english/share/ts_english/hook/ament_prefix_path.dsv'
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unghui/turtlebot_says_ros2_ws/install/ts_english/share/ts_english/hook/ament_prefix_path.sh'
+[0.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.497s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.839s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/unghui/turtlebot_says_ros2_ws/src/ts_english'
+[0.839s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.839s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unghui/turtlebot_says_ros2_ws/src/ts_english': CMAKE_PREFIX_PATH=/home/unghui/turtlebot_says_ros2_ws/install/custom_interfaces:/home/unghui/turtlebot_says_ros2_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/unghui/turtlebot_says_ros2_ws/install/custom_interfaces/lib:/home/unghui/turtlebot_says_ros2_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/unghui/turtlebot_says_ros2_ws/build/ts_english/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages:/home/unghui/turtlebot_says_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/unghui/turtlebot_says_ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ts_english build --build-base /home/unghui/turtlebot_says_ros2_ws/build/ts_english/build install --record /home/unghui/turtlebot_says_ros2_ws/build/ts_english/install.log --install-scripts $base/lib/ts_english --single-version-externally-managed install_data
+[1.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unghui/turtlebot_says_ros2_ws/src/ts_english' returned '0': CMAKE_PREFIX_PATH=/home/unghui/turtlebot_says_ros2_ws/install/custom_interfaces:/home/unghui/turtlebot_says_ros2_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/unghui/turtlebot_says_ros2_ws/install/custom_interfaces/lib:/home/unghui/turtlebot_says_ros2_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/unghui/turtlebot_says_ros2_ws/build/ts_english/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages:/home/unghui/turtlebot_says_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/unghui/turtlebot_says_ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ts_english build --build-base /home/unghui/turtlebot_says_ros2_ws/build/ts_english/build install --record /home/unghui/turtlebot_says_ros2_ws/build/ts_english/install.log --install-scripts $base/lib/ts_english --single-version-externally-managed install_data
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/unghui/turtlebot_says_ros2_ws/install/ts_english' for CMake module files
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/unghui/turtlebot_says_ros2_ws/install/ts_english' for CMake config files
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/unghui/turtlebot_says_ros2_ws/install/ts_english/bin'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/pkgconfig/ts_english.pc'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages'
+[1.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('ts_english', 'pythonpath')
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unghui/turtlebot_says_ros2_ws/install/ts_english/share/ts_english/hook/pythonpath.ps1'
+[1.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unghui/turtlebot_says_ros2_ws/install/ts_english/share/ts_english/hook/pythonpath.dsv'
+[1.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unghui/turtlebot_says_ros2_ws/install/ts_english/share/ts_english/hook/pythonpath.sh'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/unghui/turtlebot_says_ros2_ws/install/ts_english/bin'
+[1.571s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ts_english)
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/unghui/turtlebot_says_ros2_ws/install/ts_english/share/ts_english/package.ps1'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unghui/turtlebot_says_ros2_ws/install/ts_english/share/ts_english/package.dsv'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/unghui/turtlebot_says_ros2_ws/install/ts_english/share/ts_english/package.sh'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/unghui/turtlebot_says_ros2_ws/install/ts_english/share/ts_english/package.bash'
+[1.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/unghui/turtlebot_says_ros2_ws/install/ts_english/share/ts_english/package.zsh'
+[1.574s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unghui/turtlebot_says_ros2_ws/install/ts_english/share/colcon-core/packages/ts_english)
+[1.575s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.575s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.576s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.576s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.633s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.633s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.633s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.633s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.634s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[1.634s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.635s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/unghui/turtlebot_says_ros2_ws/install/local_setup.ps1'
+[1.635s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/unghui/turtlebot_says_ros2_ws/install/_local_setup_util_ps1.py'
+[1.636s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/unghui/turtlebot_says_ros2_ws/install/setup.ps1'
+[1.637s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/unghui/turtlebot_says_ros2_ws/install/local_setup.sh'
+[1.638s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/unghui/turtlebot_says_ros2_ws/install/_local_setup_util_sh.py'
+[1.638s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/unghui/turtlebot_says_ros2_ws/install/setup.sh'
+[1.639s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/unghui/turtlebot_says_ros2_ws/install/local_setup.bash'
+[1.639s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/unghui/turtlebot_says_ros2_ws/install/setup.bash'
+[1.640s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/unghui/turtlebot_says_ros2_ws/install/local_setup.zsh'
+[1.641s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/unghui/turtlebot_says_ros2_ws/install/setup.zsh'

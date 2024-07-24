@@ -1,0 +1,10 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/unghui/turtlebot_says_ros2_ws/src/custom_interfaces:msg/Num.msg",
+    "/home/unghui/turtlebot_says_ros2_ws/src/custom_interfaces:msg/Sphere.msg",
+    "/home/unghui/turtlebot_says_ros2_ws/src/custom_interfaces:srv/AddThreeInts.srv",
+    "/home/unghui/turtlebot_says_ros2_ws/src/custom_interfaces:srv/DrawEnglish.srv",
+    "/home/unghui/turtlebot_says_ros2_ws/src/custom_interfaces:action/Fibonacci.action"
+  ]
+}

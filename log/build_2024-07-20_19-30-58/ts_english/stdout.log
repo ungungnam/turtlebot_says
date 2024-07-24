@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/ts_english/ts_english.egg-info
+writing ../../build/ts_english/ts_english.egg-info/PKG-INFO
+writing dependency_links to ../../build/ts_english/ts_english.egg-info/dependency_links.txt
+writing entry points to ../../build/ts_english/ts_english.egg-info/entry_points.txt
+writing requirements to ../../build/ts_english/ts_english.egg-info/requires.txt
+writing top-level names to ../../build/ts_english/ts_english.egg-info/top_level.txt
+writing manifest file '../../build/ts_english/ts_english.egg-info/SOURCES.txt'
+reading manifest file '../../build/ts_english/ts_english.egg-info/SOURCES.txt'
+writing manifest file '../../build/ts_english/ts_english.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/unghui/turtlebot_says_ros2_ws/build/ts_english/build
+creating /home/unghui/turtlebot_says_ros2_ws/build/ts_english/build/lib
+creating /home/unghui/turtlebot_says_ros2_ws/build/ts_english/build/lib/ts_english
+copying ts_english/draw_english_cli.py -> /home/unghui/turtlebot_says_ros2_ws/build/ts_english/build/lib/ts_english
+copying ts_english/__init__.py -> /home/unghui/turtlebot_says_ros2_ws/build/ts_english/build/lib/ts_english
+copying ts_english/draw_english_srv.py -> /home/unghui/turtlebot_says_ros2_ws/build/ts_english/build/lib/ts_english
+running install
+running install_lib
+creating /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages/ts_english
+copying /home/unghui/turtlebot_says_ros2_ws/build/ts_english/build/lib/ts_english/draw_english_cli.py -> /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages/ts_english
+copying /home/unghui/turtlebot_says_ros2_ws/build/ts_english/build/lib/ts_english/__init__.py -> /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages/ts_english
+copying /home/unghui/turtlebot_says_ros2_ws/build/ts_english/build/lib/ts_english/draw_english_srv.py -> /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages/ts_english
+byte-compiling /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages/ts_english/draw_english_cli.py to draw_english_cli.cpython-38.pyc
+byte-compiling /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages/ts_english/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages/ts_english/draw_english_srv.py to draw_english_srv.cpython-38.pyc
+running install_data
+creating /home/unghui/turtlebot_says_ros2_ws/install/ts_english/share
+creating /home/unghui/turtlebot_says_ros2_ws/install/ts_english/share/ament_index
+creating /home/unghui/turtlebot_says_ros2_ws/install/ts_english/share/ament_index/resource_index
+creating /home/unghui/turtlebot_says_ros2_ws/install/ts_english/share/ament_index/resource_index/packages
+copying resource/ts_english -> /home/unghui/turtlebot_says_ros2_ws/install/ts_english/share/ament_index/resource_index/packages
+creating /home/unghui/turtlebot_says_ros2_ws/install/ts_english/share/ts_english
+copying package.xml -> /home/unghui/turtlebot_says_ros2_ws/install/ts_english/share/ts_english
+running install_egg_info
+Copying ../../build/ts_english/ts_english.egg-info to /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages/ts_english-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/unghui/turtlebot_says_ros2_ws/build/ts_english/install.log'

@@ -1,0 +1,4 @@
+[console_scripts]
+draw_english_client = ts_english.draw_english_cli:main
+draw_english_server = ts_english.draw_english_srv:main
+

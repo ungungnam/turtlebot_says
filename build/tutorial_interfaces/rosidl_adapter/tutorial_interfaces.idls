@@ -1,0 +1,5 @@
+/home/unghui/turtlebot_says_ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Num.idl
+/home/unghui/turtlebot_says_ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Sphere.idl
+/home/unghui/turtlebot_says_ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:srv/AddThreeInts.idl
+/home/unghui/turtlebot_says_ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:srv/DrawEnglish.idl
+/home/unghui/turtlebot_says_ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:action/Fibonacci.idl

@@ -1,0 +1,25 @@
+[0.823s] Invoking command in '/home/unghui/turtlebot_says_ros2_ws/src/ts_english': CMAKE_PREFIX_PATH=/home/unghui/turtlebot_says_ros2_ws/install/custom_interfaces:/home/unghui/turtlebot_says_ros2_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/unghui/turtlebot_says_ros2_ws/install/custom_interfaces/lib:/home/unghui/turtlebot_says_ros2_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/unghui/turtlebot_says_ros2_ws/build/ts_english/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages:/home/unghui/turtlebot_says_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/unghui/turtlebot_says_ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ts_english build --build-base /home/unghui/turtlebot_says_ros2_ws/build/ts_english/build install --record /home/unghui/turtlebot_says_ros2_ws/build/ts_english/install.log --install-scripts $base/lib/ts_english --single-version-externally-managed install_data
+[0.994s] running egg_info
+[0.995s] writing ../../build/ts_english/ts_english.egg-info/PKG-INFO
+[0.995s] writing dependency_links to ../../build/ts_english/ts_english.egg-info/dependency_links.txt
+[0.996s] writing entry points to ../../build/ts_english/ts_english.egg-info/entry_points.txt
+[0.997s] writing requirements to ../../build/ts_english/ts_english.egg-info/requires.txt
+[0.997s] writing top-level names to ../../build/ts_english/ts_english.egg-info/top_level.txt
+[1.025s] reading manifest file '../../build/ts_english/ts_english.egg-info/SOURCES.txt'
+[1.026s] writing manifest file '../../build/ts_english/ts_english.egg-info/SOURCES.txt'
+[1.026s] running build
+[1.026s] running build_py
+[1.026s] copying ts_english/draw_english_srv.py -> /home/unghui/turtlebot_says_ros2_ws/build/ts_english/build/lib/ts_english
+[1.026s] running install
+[1.027s] running install_lib
+[1.027s] copying /home/unghui/turtlebot_says_ros2_ws/build/ts_english/build/lib/ts_english/draw_english_srv.py -> /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages/ts_english
+[1.028s] byte-compiling /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages/ts_english/draw_english_srv.py to draw_english_srv.cpython-38.pyc
+[1.030s] running install_data
+[1.030s] running install_egg_info
+[1.032s] removing '/home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages/ts_english-0.0.0-py3.8.egg-info' (and everything under it)
+[1.032s] Copying ../../build/ts_english/ts_english.egg-info to /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages/ts_english-0.0.0-py3.8.egg-info
+[1.033s] running install_scripts
+[1.047s] Installing draw_english_client script to /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/ts_english
+[1.048s] Installing draw_english_server script to /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/ts_english
+[1.048s] writing list of installed files to '/home/unghui/turtlebot_says_ros2_ws/build/ts_english/install.log'
+[1.065s] Invoked command in '/home/unghui/turtlebot_says_ros2_ws/src/ts_english' returned '0': CMAKE_PREFIX_PATH=/home/unghui/turtlebot_says_ros2_ws/install/custom_interfaces:/home/unghui/turtlebot_says_ros2_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/unghui/turtlebot_says_ros2_ws/install/custom_interfaces/lib:/home/unghui/turtlebot_says_ros2_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/unghui/turtlebot_says_ros2_ws/build/ts_english/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages:/home/unghui/turtlebot_says_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/unghui/turtlebot_says_ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ts_english build --build-base /home/unghui/turtlebot_says_ros2_ws/build/ts_english/build install --record /home/unghui/turtlebot_says_ros2_ws/build/ts_english/install.log --install-scripts $base/lib/ts_english --single-version-externally-managed install_data

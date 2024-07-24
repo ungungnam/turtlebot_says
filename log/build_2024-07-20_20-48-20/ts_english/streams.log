@@ -1,0 +1,25 @@
+[1.335s] Invoking command in '/home/unghui/turtlebot_says_ros2_ws/src/ts_english': PYTHONPATH=/home/unghui/turtlebot_says_ros2_ws/build/ts_english/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ts_english build --build-base /home/unghui/turtlebot_says_ros2_ws/build/ts_english/build install --record /home/unghui/turtlebot_says_ros2_ws/build/ts_english/install.log --install-scripts $base/lib/ts_english --single-version-externally-managed install_data
+[1.548s] running egg_info
+[1.548s] writing ../../build/ts_english/ts_english.egg-info/PKG-INFO
+[1.548s] writing dependency_links to ../../build/ts_english/ts_english.egg-info/dependency_links.txt
+[1.549s] writing entry points to ../../build/ts_english/ts_english.egg-info/entry_points.txt
+[1.549s] writing requirements to ../../build/ts_english/ts_english.egg-info/requires.txt
+[1.550s] writing top-level names to ../../build/ts_english/ts_english.egg-info/top_level.txt
+[1.582s] reading manifest file '../../build/ts_english/ts_english.egg-info/SOURCES.txt'
+[1.583s] writing manifest file '../../build/ts_english/ts_english.egg-info/SOURCES.txt'
+[1.583s] running build
+[1.583s] running build_py
+[1.584s] copying ts_english/draw_english_srv.py -> /home/unghui/turtlebot_says_ros2_ws/build/ts_english/build/lib/ts_english
+[1.584s] running install
+[1.586s] running install_lib
+[1.587s] copying /home/unghui/turtlebot_says_ros2_ws/build/ts_english/build/lib/ts_english/draw_english_srv.py -> /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages/ts_english
+[1.587s] byte-compiling /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages/ts_english/draw_english_srv.py to draw_english_srv.cpython-38.pyc
+[1.590s] running install_data
+[1.590s] running install_egg_info
+[1.591s] removing '/home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages/ts_english-0.0.0-py3.8.egg-info' (and everything under it)
+[1.592s] Copying ../../build/ts_english/ts_english.egg-info to /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages/ts_english-0.0.0-py3.8.egg-info
+[1.592s] running install_scripts
+[1.610s] Installing draw_english_client script to /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/ts_english
+[1.610s] Installing draw_english_server script to /home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/ts_english
+[1.611s] writing list of installed files to '/home/unghui/turtlebot_says_ros2_ws/build/ts_english/install.log'
+[1.635s] Invoked command in '/home/unghui/turtlebot_says_ros2_ws/src/ts_english' returned '0': PYTHONPATH=/home/unghui/turtlebot_says_ros2_ws/build/ts_english/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/unghui/turtlebot_says_ros2_ws/install/ts_english/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ts_english build --build-base /home/unghui/turtlebot_says_ros2_ws/build/ts_english/build install --record /home/unghui/turtlebot_says_ros2_ws/build/ts_english/install.log --install-scripts $base/lib/ts_english --single-version-externally-managed install_data
